@@ -1,0 +1,19 @@
+# --- Playwright Test Artifacts & Reports ---
+/test-results/
+/playwright-report/
+/playwright/.last-run.json
+blob-report/
+playwright-report/
+
+# --- Node & Environment Dependencies ---
+/node_modules/
+package-lock.json
+
+# --- Environment & Local Secrets ---
+.env
+.env.local
+
+# --- IDE & Editor Settings ---
+.vscode/
+.DS_Store
+Thumbs.db

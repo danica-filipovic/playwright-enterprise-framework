@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* --- Environment & Language Target --- */
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "bundler",
+
+    /* --- Type Safety & Strictness --- */
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* --- Framework Globals (Required for process.env) --- */
+    "types": ["node", "@playwright/test"]
+  },
+
+  /* --- File Scope --- */
+  "include": [
+    "tests/**/*",
+    "pages/**/*",
+    "utils/**/*",
+    "fixtures/**/*",
+    "api/**/*"
+  ]
+}
