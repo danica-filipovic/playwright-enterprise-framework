@@ -5,10 +5,6 @@
 blob-report/
 playwright-report/
 
-# --- Node & Environment Dependencies ---
-/node_modules/
-package-lock.json
-
 # --- Environment & Local Secrets ---
 .env
 .env.local
